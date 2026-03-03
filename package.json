@@ -1,0 +1,42 @@
+{
+  "name": "docker-cleanup",
+  "version": "1.0.0",
+  "description": "Interactive Docker cleanup. Remove dangling images, stopped containers, unused volumes, and networks. Zero npm dependencies.",
+  "type": "module",
+  "bin": {
+    "docker-cleanup": "./index.js",
+    "dclean": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "developer-tools",
+    "cli",
+    "nodejs",
+    "zero-dependencies",
+    "docker",
+    "cleanup",
+    "containers",
+    "images",
+    "tui",
+    "interactive"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NickCirv/docker-cleanup.git"
+  },
+  "homepage": "https://github.com/NickCirv/docker-cleanup#readme",
+  "bugs": {
+    "url": "https://github.com/NickCirv/docker-cleanup/issues"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
