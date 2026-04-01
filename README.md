@@ -1,3 +1,5 @@
+![Banner](banner.svg)
+
 # docker-cleanup
 
 > Interactive Docker cleanup. Select and delete dangling images, stopped containers, unused volumes, and networks. Zero npm dependencies.
